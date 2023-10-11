@@ -49,7 +49,7 @@ const Promo = ({ promo, gig, email }) => {
                 key={pricing.id}
                 className={`${
                   pricing.special
-                    ? 'relative bottom-8 left-[20rem] mb-[-5rem] sm:left-[10rem] lg:left-[13rem] xl:left-[20rem]'
+                    ? 'relative bottom-8 left-[14rem] mb-[-5rem] sm:left-[10rem] lg:left-[13rem] xl:left-[20rem]'
                     : ''
                 }`}
               />

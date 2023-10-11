@@ -64,7 +64,7 @@ const Reviews = () => {
           <SwiperSlide key={review.id} className=" border border-white p-8">
             <div>
               <img src={Avatar4} alt="" className="h-4" />
-              <p className="my-5 ml-[-0.1rem] w-6/12 text-justify  text-sm text-[#737373]">
+              <p className="my-5 ml-[-0.1rem] w-6/12 text-justify text-sm text-[#737373] lg:w-10/12">
                 {review.comment}
               </p>
               <div className="flex items-center gap-4">

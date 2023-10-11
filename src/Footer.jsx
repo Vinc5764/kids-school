@@ -58,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="inline-flex h-16 w-full items-center  justify-around gap-4 bg-[#FAFAFA]">
+      <div className="inline-flex h-32 w-full flex-col items-center justify-around  gap-4 bg-[#FAFAFA] lg:flex-row">
         <p className="text-[0.875rem] font-bold leading-6 text-[#737373]">
           Made With Love By Figmaland All Right Reserved{' '}
         </p>
