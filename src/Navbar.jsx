@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [setIsSticky]);
 
   return (
-    <header className="fixed left-0 right-0 top-0 w-full md:z-[1000] lg:z-[1000]">
+    <header className="fixed left-0 right-0 top-0 z-[1000] w-full md:z-[1000] lg:z-[1000]">
       <nav
         className={`bg-transparent px-4 py-4 md:px-12 ${
           isSticky ? 'sticky left-0 right-0 top-0 bg-white ' : ''
@@ -105,17 +105,14 @@ const Navbar = () => {
           </div>
 
           {/* btn for small devices */}
-          <button
-            onClick={toggleMenu}
-            className="text-body text-3xl lg:hidden "
-          >
+          <button onClick={toggleMenu} className=" text-3xl lg:hidden ">
             <HiMenu />
           </button>
         </div>
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="mt-4 rounded-lg bg-secondary p-4 text-white hover:cursor-pointer">
+          <div className=" mt-4 rounded-lg bg-secondary p-4 text-white hover:cursor-pointer">
             <Link
               activeClass="active"
               smooth={true}

@@ -55,12 +55,12 @@ const ReviewCard = () => {
             spaceBetween: 50,
           },
         }}
-        className="mySwiper -z-0 rounded-[2rem] lg:z-[999] lg:mt-[-7rem] lg:w-[60rem]"
+        className="mySwiper z-0  rounded-[2rem] lg:z-[999] lg:mt-[-7rem] lg:w-[60rem]"
       >
         {reviews.map((review) => (
           <SwiperSlide
             key={review.id}
-            className="bg-light-background-color shadow-accentued-drop   lg: h-[18.8rem] w-[20rem] rounded-[2rem] border py-4  pl-4"
+            className="bg-light-background-color shadow-accentued-drop lg:  z-0 h-[18.8rem] w-[20rem] rounded-[2rem] border py-4  pl-4"
           >
             <div>
               <div className="flex items-center gap-4">
