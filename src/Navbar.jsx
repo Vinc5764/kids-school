@@ -15,8 +15,10 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 1000) {
+      if (window.scrollY > 0 ?? window.scrollY < 300) {
         setIsSticky(true);
+      } else {
+        setIsSticky(false);
       }
     };
 
@@ -25,7 +27,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [setIsSticky]);
 
   return (
     <header className="fixed left-0 right-0 top-0 w-full lg:z-[1000]">
