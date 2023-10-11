@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [setIsSticky]);
 
   return (
-    <header className="fixed left-0 right-0 top-0 w-full lg:z-[1000]">
+    <header className="fixed left-0 right-0 top-0 w-full md:z-[1000] lg:z-[1000]">
       <nav
         className={`bg-transparent px-4 py-4 md:px-12 ${
           isSticky ? 'sticky left-0 right-0 top-0 bg-white ' : ''

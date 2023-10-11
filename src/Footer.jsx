@@ -8,7 +8,7 @@ import twitter from './assets/twitter.svg';
 const Footer = () => {
   return (
     <div className="flex flex-col gap-4  text-center lg:items-center lg:justify-center lg:text-justify">
-      <div className="flex flex-col items-center justify-evenly gap-8 text-[#737373] lg:flex-row">
+      <div className="flex flex-col items-center justify-evenly gap-8 text-[#737373]  lg:flex-row">
         <div className="inline-flex flex-col justify-between gap-2 ">
           <h1 className="text-base font-bold text-[#252B42]">Company Info</h1>
           <p>About Us</p>
