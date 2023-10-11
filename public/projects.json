@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "training courses",
+    "description": "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    "image": "/src/assets/project-1.png",
+    "rating": "/src/assets/rating.png",
+    "sales": "/src/assets/sales.svg",
+    "slogan": "Video in Live Action"
+  },
+  {
+    "id": 2,
+    "name": "Books Library",
+    "description": "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    "image": "/src/assets/project-2.png",
+    "rating": "/src/assets/rating.png",
+    "sales": "/src/assets/sales.svg",
+    "slogan": "Every Client Matters"
+  },
+  {
+    "id": 3,
+    "name": "Certified Teacher",
+    "description": "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    "image": "/src/assets/project-3.png",
+    "rating": "/src/assets/rating.png",
+    "sales": "/src/assets/sales.svg",
+    "slogan": "Get Quality Education"
+  }
+]

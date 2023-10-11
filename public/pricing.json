@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "FREE",
+    "description": "Organize across all apps by hand",
+    "image": "/src/assets/like.png",
+    "rating": "/src/assets/rating.png",
+    "sales": "/src/assets/circle.png",
+    "case": "/src/assets/not.png",
+    "slogan": "Slate helps you see how many more days you need...",
+    "special": false
+  },
+  {
+    "id": 2,
+    "name": "FREE",
+    "description": "Organize across all apps by hand",
+    "image": "/src/assets/like.png",
+    "rating": "/src/assets/rating.png",
+    "sales": "/src/assets/circle.png",
+    "case": "/src/assets/not.png",
+    "new": "/src/assets/new.png",
+    "slogan": "Slate helps you see how many more days you need...",
+    "special": true
+  },
+  {
+    "id": 3,
+    "name": "FREE",
+    "description": "Organize across all apps by hand",
+    "image": "/src/assets/like.png",
+    "rating": "/src/assets/rating.png",
+    "sales": "/src/assets/circle.png",
+    "case": "/src/assets/not.png",
+    "slogan": "Slate helps you see how many more days you need...",
+    "special": false
+  }
+]
